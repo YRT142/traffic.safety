@@ -30,6 +30,25 @@ AI Traffic Rule Officer is a chatbot designed to assist users with traffic-relat
 6. **No Parking Zones:**
    - Obey no-parking signs to avoid fines and ensure the smooth flow of traffic.
 
+ ##installation  
+To get started with Urban-Gardening-Advisor, follow these steps:
+
+Clone the repository:
+
+git clone https://github.com/gorav-max/Urban-Gardening-Advisor.git
+cd Urban-Gardening-Advisor
+Install the Gaia Node:
+
+Run the command below:
+
+curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
+Update the config.json file to run with a small language model:
+
+gaianet init --config https://raw.githubusercontent.com/harishkotra/Gaia-8G/refs/heads/main/config_8g.json
+Start the node:
+
+gaianet start
+
 ## How to Use
 1. Open your web browser and navigate to the generated link.
 2. Start interacting with the chatbot by typing your traffic-related questions.
